@@ -44,5 +44,5 @@ text.usetex: true
 
 # Color cycle
 # CC is 0.8 alpha (0.8*255 to hexadecimal)
-#axes.prop_cycle: cycler('color', ['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33', '#a65628', '#f781bf', '#999999'])
-axes.prop_cycle: cycler('color', ['#e41a1ccc', '#377eb8cc', '#4daf4acc', '#984ea3cc', '#ff7f00cc', '#ffff33cc', '#a65628cc', '#f781bfcc', '#999999cc'])
+#axes.prop_cycle: cycler('color', ['e41a1c', '377eb8', '4daf4a', '984ea3', 'ff7f00', 'ffff33', 'a65628', 'f781bf', '999999'])
+axes.prop_cycle: cycler('color', ['e41a1ccc', '377eb8cc', '4daf4acc', '984ea3cc', 'ff7f00cc', 'ffff33cc', 'a65628cc', 'f781bfcc', '999999cc'])
