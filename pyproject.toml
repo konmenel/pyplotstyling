@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyplotstyling"
+authors = [
+    {name = "Constantinos Menelaou", email = "konmenel@gmail.com"},
+]
+description = "Stores custom layout/styles for plotly and matplotlib"
+readme = "README.md"
+# requires-python = ">=3.8"
+license = {file = "LICENSE"}
+version = "1.0"

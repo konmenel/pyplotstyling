@@ -13,6 +13,11 @@ grid.color: darkgrey
 grid.linewidth: 1
 grid.alpha: 1.0
 
+# Only works with my fork of matplotlib
+# grid.minor.color: lightgrey
+# grid.minor.linewidth: 0.75
+# grid.minor.alpha: 1.0
+
 # Ticks settings
 xtick.color: black
 xtick.direction: in
