@@ -8,15 +8,15 @@ axes.grid:       True
 lines.linewidth: 1.25
 
 # Grid settings
-axes.grid.which: major
 grid.color:      darkgrey
 grid.linewidth:  1.0
 grid.alpha:      1.0
 
 # Only works with my fork of matplotlib for now
-grid.minor.color:     lightgrey
-grid.minor.linewidth: 0.75
-grid.minor.alpha:     1.0
+axes.grid.which:      both
+grid.minor.color:     darkgrey
+grid.minor.linewidth: 0.5
+grid.minor.alpha:     0.4
 
 # Ticks settings
 xtick.color:         black
