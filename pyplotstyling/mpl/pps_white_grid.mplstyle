@@ -3,35 +3,35 @@ axes.edgecolor:       black
 axes.titlepad:        12
 axes.labelcolor:      black
 axes.grid:            True
+axes.linewidth:       0.6
 
 # Lines
 lines.linewidth:      1.25
 
 # Grid settings
 grid.color:           darkgrey
-grid.linewidth:       1.0
-grid.alpha:           1.0
+grid.linewidth:       0.6
 
 # Minor grid
 # Only works with my fork of matplotlib for now
 axes.grid.which:      both
 xtick.minor.visible:  True
 ytick.minor.visible:  True
-grid.minor.linewidth: 0.5
+grid.minor.linewidth: 0.4
 grid.minor.alpha:     0.4
 
 # Ticks settings
 xtick.color:          black
 xtick.direction:      in
 xtick.major.size:     5.0
-xtick.major.width:    0.75
+xtick.major.width:    0.6
 xtick.minor.size:     2.0
 xtick.minor.width:    0.5
 
 ytick.color:          black
 ytick.direction:      in
 ytick.major.size:     5.0
-ytick.major.width:    0.75
+ytick.major.width:    0.6
 ytick.minor.size:     2.0
 ytick.minor.width:    0.5
 
@@ -46,12 +46,12 @@ legend.columnspacing: 1.0
 mathtext.fontset:     cm
 font.family:          DejaVu Serif
 text.usetex:          true
-font.size:            10.0
-axes.titlesize:       large
-axes.labelsize:       small
-legend.fontsize:      medium
-ytick.labelsize:      medium
-xtick.labelsize:      medium
+font.size:            9.0
+axes.titlesize:       11.0
+axes.labelsize:       9.0
+legend.fontsize:      9.0
+ytick.labelsize:      8.5
+xtick.labelsize:      8.5
 
 # Color cycle
 # CC is 0.8 alpha (0.8*255 to hexadecimal)
