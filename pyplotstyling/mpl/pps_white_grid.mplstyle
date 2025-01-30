@@ -10,21 +10,21 @@ lines.linewidth: 1.25
 # Grid settings
 axes.grid.which: major
 grid.color:      darkgrey
-grid.linewidth:  1
+grid.linewidth:  1.0
 grid.alpha:      1.0
 
-# Only works with my fork of matplotlib
-# grid.minor.color:     lightgrey
-# grid.minor.linewidth: 0.75
-# grid.minor.alpha:     1.0
+# Only works with my fork of matplotlib for now
+grid.minor.color:     lightgrey
+grid.minor.linewidth: 0.75
+grid.minor.alpha:     1.0
 
 # Ticks settings
 xtick.color:         black
 xtick.direction:     in
-xtick.major.size:    5
+xtick.major.size:    5.0
 xtick.major.width:   0.75
 xtick.minor.visible: True
-xtick.minor.size:    2
+xtick.minor.size:    2.0
 xtick.minor.width:   0.5
 
 ytick.color:         black
@@ -32,7 +32,7 @@ ytick.direction:     in
 ytick.major.size:    5
 ytick.major.width:   0.75
 ytick.minor.visible: True
-ytick.minor.size:    2
+ytick.minor.size:    2.0
 ytick.minor.width:   0.5
 
 # Legend settings
@@ -43,15 +43,15 @@ legend.handlelength:  1.5
 legend.columnspacing: 1.0
 
 # Font settings
-mathtext.fontset: cm
-font.family:     DejaVu Serif
-text.usetex:     true
-font.size:       medium
-axes.titlesize:  large
-axes.labelsize:  small
-legend.fontsize: medium
-ytick.labelsize: medium
-xtick.labelsize: medium
+mathtext.fontset:   cm
+font.family:        DejaVu Serif
+text.usetex:        true
+font.size:          10.0
+axes.titlesize:     large
+axes.labelsize:     small
+legend.fontsize:    medium
+ytick.labelsize:    medium
+xtick.labelsize:    medium
 
 # Color cycle
 # CC is 0.8 alpha (0.8*255 to hexadecimal)
