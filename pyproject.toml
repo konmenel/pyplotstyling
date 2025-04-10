@@ -12,3 +12,9 @@ readme = "README.md"
 # requires-python = ">=3.8"
 license = {file = "LICENSE"}
 version = "1.0"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"pyplotstyling.mpl" = ["*.mplstyle"]
