@@ -39,7 +39,7 @@ ytick.minor.width:    0.5
 legend.edgecolor:     black
 legend.frameon:       True
 legend.framealpha:    1.0
-legend.handlelength:  1.5
+legend.handlelength:  2.0
 legend.columnspacing: 1.0
 
 # Font settings
